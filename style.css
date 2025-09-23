@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings:
+        "wdth" 100;
+}
+
+body{
+    background-image: url(img/ChatGPT\ Image\ 22\ de\ set.\ de\ 2025\,\ 16_52_09.png);
+}
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    gap: 2rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+}
+header img{
+    margin-right: 40rem;
+}
+
+section input{
+    background-color: rgb(188, 44, 44);
+    padding-top: 0.3rem ;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    border-bottom: none;
+    border: none;
+}
+main img{
+    width: 20rem;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+    margin-right: 2rem;
+}
+
+main h1{
+    font-size: 6rem;
+    padding-left: 20rem;
+    color: rgb(255, 255, 0);
+}
+
+main h2{
+    color: white;
+    font-size: 6rem;
+    padding-left: 20rem;
+}
+
+main p {
+    margin-left: 20rem;
+    color: white;
+}
+
+footer {
+    margin-left: 60rem;
+    margin-top: -10rem;
+}
+
+footer input{
+    padding: 1rem;
+    border-radius: 5px;
+    border-bottom: none;
+    border: none;
+    background-color: #ccff007c;
+}
