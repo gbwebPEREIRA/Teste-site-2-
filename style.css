@@ -81,3 +81,33 @@ footer input{
     border: none;
     background-color: #ccff007c;
 }
+
+
+@media screen and (max-width: 1020px) {
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 1rem;
+        margin-top: 2rem;
+        
+    }
+    main p{
+        font-size: 1.9rem;
+       text-align: justify;
+    }
+    main img{
+        margin-top: 1rem;
+        width: 20rem;
+        padding-top: 2rem;
+    }
+    header{
+        margin-left: 60rem;
+        width: 1rem;
+        font-size: 1.5rem;
+    }
+
+    footer{
+        margin-left: 20rem;
+        font-size: 20rem;
+    }
+}
